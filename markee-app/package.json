@@ -9,8 +9,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext ts,tsx --no-eslintrc --config .eslintrc-default.json",
     "lint:fix": "yarn lint --fix",
-    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
-    "prepare": "cd .. && husky install front/.husky"
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -31,7 +30,7 @@
     "eslint-plugin-only-warn": "1.0.3",
     "eslint-plugin-promise": "6.0.1",
     "eslint-plugin-react": "7.31.8",
-    "husky": "8.0.1",
+    "normalize.css": "8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
